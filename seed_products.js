@@ -17,18 +17,18 @@ const productsData = [
     { name: 'Purple Premix', file: '02 PURPLE.jpg', category: 'Specialty' },
     { name: 'Red Premix', file: '02 RED.jpg', category: 'Specialty' },
     { name: 'Yellow Premix', file: '02 YELLOW.jpg', category: 'Specialty' },
-    { name: 'Evermix Regular 1', file: '1.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 2', file: '2.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 3', file: '3.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 4', file: '4.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 5', file: '5.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 6', file: '6.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 7', file: '7.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 8', file: '8.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 9', file: '9.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 10', file: '10.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 11', file: '11.jpg', category: 'Regular' },
-    { name: 'Evermix Regular 12', file: '12.jpg', category: 'Regular' }
+    { name: 'Evermix Kesar Mix', file: '1.jpg', category: 'Regular' },
+    { name: 'Evermix Hot Chocolate', file: '2.jpg', category: 'Regular' },
+    { name: 'Evermix Rasam', file: '3.jpg', category: 'Regular' },
+    { name: 'Evermix Payasum', file: '4.jpg', category: 'Regular' },
+    { name: 'Evermix Methi Gota', file: '5.jpg', category: 'Regular' },
+    { name: 'Evermix Podi Masala', file: '6.jpg', category: 'Regular' },
+    { name: 'Evermix Sambhar Masala Kit', file: '7.jpg', category: 'Regular' },
+    { name: 'Evermix Idli Chutney', file: '8.jpg', category: 'Regular' },
+    { name: 'Evermix Masala Chai', file: '9.jpg', category: 'Regular' },
+    { name: 'Evermix Sambhar Kit', file: '10.jpg', category: 'Regular' },
+    { name: 'Evermix Upma', file: '11.jpg', category: 'Regular' },
+    { name: 'Evermix Sweet Kesari', file: '12.jpg', category: 'Regular' }
 ];
 
 const videoName = 'upma video .mp4';

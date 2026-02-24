@@ -4,15 +4,11 @@ import Link from 'next/link';
 export default async function Home() {
   const supabase = createServerClient();
 
-  const { data: featuredProducts, error } = await supabase
+  const { data: featuredProducts } = await supabase
     .from('products')
     .select('*')
     .limit(4)
     .order('created_at', { ascending: false });
-
-  if (error) {
-    console.error('Home Page Supabase Error:', error);
-  }
 
   return (
     <main>

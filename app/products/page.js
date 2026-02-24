@@ -4,14 +4,10 @@ import Hero from '@/components/Hero';
 
 export default async function Products() {
     const supabase = createServerClient();
-    const { data: products, error } = await supabase
+    const { data: products } = await supabase
         .from('products')
         .select('*')
         .order('created_at', { ascending: false });
-
-    if (error) {
-        console.error('Products Page Supabase Error:', error);
-    }
 
     return (
         <main>
