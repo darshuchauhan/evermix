@@ -31,6 +31,7 @@ export default function Hero({ title, subtitle, showNav = true }) {
                 }}>
                     <Link href="/">Home</Link>
                     <Link href="/products">Products</Link>
+                    <Link href="/gallery">Gallery</Link>
                     <Link href="/about">About Us</Link>
                 </nav>
             )}

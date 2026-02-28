@@ -46,6 +46,7 @@ export default async function Home() {
         }}>
           <Link href="/" style={{ borderBottom: '2px solid white' }}>Home</Link>
           <Link href="/products">Products</Link>
+          <Link href="/gallery">Gallery</Link>
           <Link href="/about">About Us</Link>
         </nav>
       </section>
